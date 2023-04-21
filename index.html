@@ -28,6 +28,14 @@
       position: relative;
       overflow: hidden;
     }
+
+    #result {
+      width: 30%;
+      height: 150px;
+      margin: 0 auto;
+      background-color: rgb(143, 212, 143);
+      display: none;
+    }
   </style>
   <title>Typing Master</title>
 </head>
@@ -39,12 +47,17 @@
     </nav>
 
     <div class="heading">
-      <h1 class="text-center text-danger">2 Minute typing test to check typing WPM speed</h1>
+      <h1 class="text-center text-danger">10 second typing test to check typing WPM speed</h1>
       <h5 class="text-center">Type the highlighted word to start this typing test.</h5>
+      <h5 class="text-center">Press Space Bar After Completing Each Word</h5>
+    </div>
+
+    <div class="text-center my-3">
+      <h4 id="words-left"></h4>
     </div>
 
     <div class="container border border-primary">
-      <div id="word-section">
+      <div id="word-section" class="text-center">
 
       </div>
     </div>
@@ -55,10 +68,11 @@
         <input type="text" class="form-control w-75" id="typing" onkeyup="return startTyping(event)"
           placeholder="Type Here">
         <button type="button" class="btn btn-success mx-4" id="timer" disabled>00:00</button>
-        <button type="button" class="btn btn-warning">Restart</button>
+        <button type="button" class="btn btn-warning" onclick="restart()">Restart</button>
       </div>
     </div>
 
+    <div class="container" id="result"></div>
   </div>
 
 
