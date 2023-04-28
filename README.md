@@ -1,4 +1,4 @@
-# Typing Speed Test Readme
+# Typing Speed Test
 This is a simple typing speed test application built with HTML, CSS, and JavaScript. It allows users to type a list of words and measures their typing speed.
 
 # How to Use
