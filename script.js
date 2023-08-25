@@ -1,4 +1,4 @@
-const wordList1 = ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+//const wordList1 = ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
 const wordList = ["abacus", "benevolent", "capricious", "diligent", "ephemeral", "felicity", "garrulous", "haughty", "ignominious", "jubilant", "kinetic", "luminous", "mendacious", "nefarious", "obsequious", "panacea", "quintessential", "reclusive", "sycophant", "tenacious", "ubiquitous", "vexatious", "wistful", "xenophobia", "yokel", "zealot", "acerbic", "blithe", "candor", "delineate", "ebullient", "fastidious", "gregarious", "histrionic", "impetuous", "juxtapose", "kaleidoscope", "laconic", "mercurial", "nonplussed", "ostentatious", "prevaricate", "quagmire", "rancorous", "stalwart", "taciturn", "unctuous", "vicarious", "whimsical", "xeric", "yielding", "zenith"];
 
 let wordSection = document.getElementById('word-section')
